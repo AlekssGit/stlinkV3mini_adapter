@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SWCLK_ISOL Pin=DD1-13
+Removed Pin From Net: NetName=SWDIO_ISOL Pin=DD1-14
+Added Pin To Net: NetName=SWDIO_ISOL Pin=DD1-13
+Added Pin To Net: NetName=SWCLK_ISOL Pin=DD1-14
+Added Member To Class: ClassName=sheet Member=Component D1 V3Mini

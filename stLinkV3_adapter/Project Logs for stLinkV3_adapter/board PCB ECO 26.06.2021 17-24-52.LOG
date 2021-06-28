@@ -1,0 +1,69 @@
+Added Component: Designator=*(STV3Mini)
+Add component. Clean all parameters for all variants
+Added Component: Designator=DD1(ADUM5401)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW1(JUMPER)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW2(JUMPER)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW3(JUMPER)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW4(JUMPER)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW5(JUMPER)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW6(JUMPER)
+Add component. Clean all parameters for all variants
+Added Component: Designator=XS1(PBS-6R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "value"; Value = "DS1071-1*6"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SWDIO Pin=*-4
+Added Pin To Net: NetName=SWO Pin=*-6
+Added Pin To Net: NetName=GND Pin=*-8
+Added Pin To Net: NetName=SWCLK Pin=*-13
+Added Pin To Net: NetName=GND Pin=*-24
+Added Pin To Net: NetName=GND Pin=*-26
+Added Pin To Net: NetName=GND Pin=*-27
+Added Pin To Net: NetName=3V3 Pin=*-30
+Added Pin To Net: NetName=RST Pin=*-31
+Added Pin To Net: NetName=3V3 Pin=DD1-1
+Added Pin To Net: NetName=SWDIO Pin=DD1-3
+Added Pin To Net: NetName=SWCLK Pin=DD1-4
+Added Pin To Net: NetName=SWO Pin=DD1-5
+Added Pin To Net: NetName=RST_ISOL Pin=DD1-6
+Added Pin To Net: NetName=GND Pin=DD1-8
+Added Pin To Net: NetName=GND Pin=DD1-9
+Added Pin To Net: NetName=RST Pin=DD1-11
+Added Pin To Net: NetName=SWO_ISOL Pin=DD1-12
+Added Pin To Net: NetName=SWCLK_ISOL Pin=DD1-13
+Added Pin To Net: NetName=SWDIO_ISOL Pin=DD1-14
+Added Pin To Net: NetName=GND Pin=DD1-15
+Added Pin To Net: NetName=3V3_ISOL Pin=DD1-16
+Added Pin To Net: NetName=SWDIO Pin=SW1-1
+Added Pin To Net: NetName=SWDIO_ISOL Pin=SW1-2
+Added Pin To Net: NetName=SWCLK Pin=SW2-1
+Added Pin To Net: NetName=SWCLK_ISOL Pin=SW2-2
+Added Pin To Net: NetName=SWO Pin=SW3-1
+Added Pin To Net: NetName=SWO_ISOL Pin=SW3-2
+Added Pin To Net: NetName=RST Pin=SW4-1
+Added Pin To Net: NetName=RST_ISOL Pin=SW4-2
+Added Pin To Net: NetName=GND Pin=SW5-1
+Added Pin To Net: NetName=GND Pin=SW5-2
+Added Pin To Net: NetName=3V3 Pin=SW6-1
+Added Pin To Net: NetName=3V3_ISOL Pin=SW6-2
+Added Pin To Net: NetName=3V3_ISOL Pin=XS1-1
+Added Pin To Net: NetName=SWDIO_ISOL Pin=XS1-2
+Added Pin To Net: NetName=SWCLK_ISOL Pin=XS1-3
+Added Pin To Net: NetName=GND Pin=XS1-4
+Added Pin To Net: NetName=SWO_ISOL Pin=XS1-5
+Added Pin To Net: NetName=RST_ISOL Pin=XS1-6
+Added Member To Class: ClassName=sheet Member=Component * V3Mini
+Added Member To Class: ClassName=sheet Member=Component DD1 Adum5401
+Added Member To Class: ClassName=sheet Member=Component SW1 Jumper
+Added Member To Class: ClassName=sheet Member=Component SW2 Jumper
+Added Member To Class: ClassName=sheet Member=Component SW3 Jumper
+Added Member To Class: ClassName=sheet Member=Component SW4 Jumper
+Added Member To Class: ClassName=sheet Member=Component SW5 Jumper
+Added Member To Class: ClassName=sheet Member=Component SW6 Jumper
+Added Member To Class: ClassName=sheet Member=Component XS1 DS1071-1*6
+Added Room: Name=sheet
