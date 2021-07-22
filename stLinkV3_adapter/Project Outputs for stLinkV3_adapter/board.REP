@@ -2,10 +2,8 @@
 FileName = board.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Paste
-      File : board.GTP
-
-    Adding Layer      : Top Paste
+Generating : Top Layer
+      File : board_Copper_Signal_Top.gbr
 
     Adding Layer      : Top Layer
 
@@ -13,24 +11,77 @@ Generating : Top Paste
 
 
 Used DCodes :
-    D18
-    D19
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : board_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : board_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : board_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D13
 *************************************************************
 
 *************************************************************
 Generating : Bottom Overlay
-      File : board.GBO
+      File : board_Legend_Bot.gbr
 
     Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D13
+    D17
+    D18
+    D19
+    D20
+    D21
 *************************************************************
 
 *************************************************************
 Generating : Bottom Solder
-      File : board.GBS
+      File : board_Soldermask_Bot.gbr
 
     Adding Layer      : Bottom Solder
 
@@ -45,89 +96,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : board.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D21
-    D22
-    D23
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : board.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : board.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D24
-    D26
-    D27
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : board.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : board.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D18
-    D19
-    D24
-    D25
-    D26
-    D27
-*************************************************************
-
-*************************************************************
 Generating : Bottom Paste
-      File : board.GBP
+      File : board_Paste_Bot.gbr
 
     Adding Layer      : Bottom Paste
 
@@ -137,5 +107,161 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : board_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D17
+    D19
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : board_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : board_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : board_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : board_Mechanical_13.gbr
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 6
+      File : board_Mechanical_6.gbr
+
+    Adding Layer      : Mechanical 6
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : board_Mechanical_1.gbr
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : board_Mechanical_15.gbr
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : board_Profile.gbr
+
+
+Used DCodes :
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : board_NPTH_Drill.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : board_PTH_Drill.gbr
+
+
+Used DCodes :
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : board_Drawing_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D25
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : board_Drillmap_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D25
 *************************************************************
 
